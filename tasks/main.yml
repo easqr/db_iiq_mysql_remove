@@ -1,0 +1,15 @@
+- name: Remove Database Container
+  docker_container:
+    name: "{{ db_container_name }}"
+    state: absent
+    networks:
+      - name: "{{ network_name }}"
+    network_mode: "{{network_name}}"
+    container_default_behavior: compatibility
+
+- name: Remove Database Data Volume
+  when: remove
+  docker_volume:
+    name: "{{ db_volume_name }}"
+    state: absent
+
