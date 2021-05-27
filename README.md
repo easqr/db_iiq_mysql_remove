@@ -25,6 +25,10 @@ Name of the docker network to attach the generated containers to.  Usually overr
 
 Flag to determine if the accelerator pack is being installed.
 
+    mysql_configdir: ./mysqlconfig
+
+The mysql configuration directory
+
 ## Dependencies
 
 None.

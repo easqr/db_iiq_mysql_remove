@@ -13,3 +13,8 @@
     name: "{{ db_volume_name }}"
     state: absent
 
+- name: Delete mysql config directory
+  when: remove
+  file:
+    state: absent
+    path: '{{ mysql_configdir }}'

@@ -9,3 +9,6 @@ network_name: sandbox_iiq
 
 #Flag to determine if the volumes should also be removed
 remove: false
+
+#The mysql configuration directory
+mysql_configdir: ./mysqlconfig
