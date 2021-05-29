@@ -1,0 +1,5 @@
+- name: Remove MS SQL Database Backup Volume
+  when: remove
+  docker_volume:
+    name: "{{ mssqlbackups_volume_name }}"
+    state: absent

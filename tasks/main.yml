@@ -13,8 +13,6 @@
     name: "{{ db_volume_name }}"
     state: absent
 
-- name: Delete mysql config directory
-  when: remove
-  file:
-    state: absent
-    path: '{{ mysql_configdir }}'
+#database type specific actions
+- name: Database Type Specific Actions
+  include_tasks: "{{ db_type }}_remove.yml"

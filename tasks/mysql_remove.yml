@@ -1,0 +1,5 @@
+- name: Delete mysql config directory
+  when: remove
+  file:
+    state: absent
+    path: '{{ mysql_configdir }}'
