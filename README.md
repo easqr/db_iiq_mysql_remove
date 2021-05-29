@@ -35,7 +35,7 @@ The mysql configuration directory
 
      db_type: mysql
 
-Database type to deploy.  Valid values are mysql and mssql
+Database type to deploy.  Valid values are mysql and sqlserver
 
 ## Dependencies
 

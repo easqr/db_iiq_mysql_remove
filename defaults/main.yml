@@ -16,5 +16,5 @@ remove: false
 #The mysql configuration directory
 mysql_configdir: ./mysqlconfig
 
-#Database type to deploy.  Valid values are mysql and mssql
+#Database type to deploy.  Valid values are mysql and sqlserver
 db_type: mysql
