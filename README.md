@@ -1,4 +1,4 @@
-# Ansible Role: db_iiq_mysql_remove
+# Ansible Role: iiq_db_remove
 Remove a Docker instance of MySQL provisioned for an IdentityIQ sandbox
 
 ## Requirements

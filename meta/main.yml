@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: db_iiq_mysql_deprovision
+  role_name: iiq_db_remove
   author: Eli Anderson
   description: Removes a docker instance of MySQL
   company: EA Squared, LLC
